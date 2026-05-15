@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================= BODY ================= */
+
+body{
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+    background-color: #f4f4f4;
+}
+
+
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+    background-color: #222;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px 50px;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+}
+
+
+/* LOGO */
+
+.logo{
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+
+/* NAV LINKS */
+
+.nav-links{
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 20px;
+}
+
+
+/* LINKS */
+
+.nav-links a{
+
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+
+/* HOVER EFFECT */
+
+.nav-links a:hover{
+
+    color: #00bcd4;
+}
+
+
+
+/* MENU BUTTON */
+
+.menu-btn{
+
+    display: none;
+
+    font-size: 28px;
+
+    cursor: pointer;
+}
+
+
+
+/* ================= HERO SECTION ================= */
+
+.hero{
+
+    min-height: 90vh;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 50px;
+
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+
+    color: white;
+
+    gap: 40px;
+
+    flex-wrap: wrap;
+}
+
+
+/* HERO HEADING */
+
+.hero h1{
+
+    font-size: 50px;
+
+    margin-bottom: 20px;
+}
+
+
+/* HERO PARAGRAPH */
+
+.hero p{
+
+    font-size: 20px;
+
+    margin-bottom: 30px;
+
+    max-width: 700px;
+}
+
+.hero-content{
+
+    flex: 1;
+}
+
+
+.hero-image{
+
+    flex: 1;
+
+    text-align: center;
+}
+
+
+.hero-image img{
+
+    width: 100%;
+
+    max-width: 500px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+/* BUTTON */
+
+.hero button{
+
+    padding: 14px 30px;
+
+    border: none;
+
+    background-color: white;
+
+    color: #2193b0;
+
+    font-size: 18px;
+    
+    font-weight: bold;
+
+    cursor: pointer;
+
+    border-radius: 50px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* BUTTON HOVER */
+
+.hero button:hover{
+
+    background-color: #222;
+
+    color: white;
+
+    transform: translateY(-3px);
+}
+
+
+
+/* ================= FEATURES SECTION ================= */
+
+.features{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 60px 20px;
+
+    flex-wrap: wrap;
+}
+
+
+/* CARD */
+
+.card{
+
+    background-color: white;
+
+    padding: 30px;
+
+    width: 300px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+
+/* CARD HEADING */
+
+.card h2{
+
+    margin-bottom: 15px;
+
+    color: #2193b0;
+}
+
+.card:hover{
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+/* ================= FOOTER ================= */
+
+footer{
+
+    background-color: #111;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    font-size: 16px;
+}
+
+
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+@media(max-width:768px){
+
+    /* NAV LINKS MOBILE */
+
+    .nav-links{
+
+        display: none;
+
+        flex-direction: column;
+
+        background-color: #222;
+
+        position: absolute;
+
+        top: 70px;
+
+        right: 0;
+
+        width: 200px;
+
+        padding: 20px;
+    }
+
+
+    /* ACTIVE CLASS */
+
+    .nav-links.active{
+
+        display: flex;
+    }
+
+
+    /* MENU BUTTON SHOW */
+
+    .menu-btn{
+
+        display: block;
+    }
+
+
+    /* HERO TEXT */
+
+    .hero h1{
+
+        font-size: 35px;
+    }
+
+
+    .hero p{
+
+        font-size: 18px;
+    }
+
+
+    /* NAVBAR PADDING */
+
+    .navbar{
+
+        padding: 15px 20px;
+    }
+
+    .hero{
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+}
