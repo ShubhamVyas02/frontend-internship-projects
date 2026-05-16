@@ -39,6 +39,17 @@ week-1-landing-page/
 ├── script.js
 └── README.md
 
+## Project Preview
+
+![Landing Page Preview](images/project-preview.png)
+
+## Day 2 Update
+
+- Added project preview screenshot
+- Updated documentation
+- Continued GitHub workflow practice
+- Maintained GitHub contribution streak
+
 ## Author
 
 Shubham
