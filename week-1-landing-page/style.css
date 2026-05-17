@@ -239,6 +239,9 @@ body{
     transition: 0.3s;
 }
 
+.card:hover{
+    transform:translateY(-10px);
+}
 
 /* CARD HEADING */
 
