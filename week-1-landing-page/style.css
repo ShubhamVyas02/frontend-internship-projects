@@ -277,6 +277,17 @@ footer{
     font-size: 16px;
 }
 
+footer p{
+
+    transition:0.3s;
+
+}
+
+footer p:hover{
+
+    letter-spacing:2px;
+
+}
 
 
 /* ================= RESPONSIVE DESIGN ================= */
