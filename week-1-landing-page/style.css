@@ -164,6 +164,14 @@ body{
     border-radius: 15px;
 
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+    transition:0.4s;
+}
+
+.hero-image img:hover{
+
+    transform:scale(1.05);
+
 }
 
 
@@ -219,6 +227,8 @@ body{
     padding: 60px 20px;
 
     flex-wrap: wrap;
+
+    margin-top:30px;
 }
 
 
