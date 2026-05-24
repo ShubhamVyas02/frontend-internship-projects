@@ -177,6 +177,8 @@ body{
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 
     transition:0.4s;
+
+    border-radius:15px;
 }
 
 .hero-image img:hover{
