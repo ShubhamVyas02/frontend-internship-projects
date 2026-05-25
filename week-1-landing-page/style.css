@@ -266,6 +266,8 @@ body{
 
 .card:hover{
     transform:translateY(-10px);
+    
+    cursor:pointer;
 }
 
 /* CARD HEADING */
