@@ -92,6 +92,8 @@ body{
 .nav-links a:hover{
 
     color: #00bcd4;
+
+    text-decoration:underline;
 }
 
 
