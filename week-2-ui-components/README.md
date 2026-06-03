@@ -2,33 +2,49 @@
 
 ## Project Overview
 
-This project is an interactive accordion component developed using HTML, CSS, and JavaScript. The main objective of the project is to enhance user interaction by allowing users to expand and collapse content sections dynamically.
+This project is an interactive Accordion UI Component developed using HTML, CSS, and JavaScript. The component allows users to expand and collapse content sections dynamically, improving user experience and content organization.
 
-The accordion component demonstrates JavaScript DOM manipulation, event handling, and responsive frontend design practices. Users can click on accordion buttons to reveal or hide related content sections smoothly.
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
+The project demonstrates the use of DOM manipulation, event handling, accessibility features, and responsive design principles. It has been designed to be simple, reusable, and easy to maintain.
 
 ## Features
 
-- Interactive Accordion UI
-- Responsive Design
-- DOM Manipulation
-- Event Handling
-- Hover Effects
-- Clean and Modern Layout
+* Interactive accordion functionality
+* Single active panel behavior
+* Responsive layout
+* Hover effects
+* Accessibility support using ARIA attributes
+* Keyboard focus visibility
+* Clean and reusable code structure
 
-## Folder Structure
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+
+## Project Structure
 
 week-2-ui-components/
-│
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
+
+## Accessibility Features
+
+* ARIA attributes for screen readers
+* Focus indicators for keyboard users
+* Semantic HTML structure
+
+## How to Run
+
+1. Download the project files.
+2. Open index.html in any modern web browser.
+3. Click on accordion headings to expand or collapse content.
 
 ## Author
 

@@ -45,4 +45,17 @@ buttons.forEach((button) => {
 
     });
 
+    // Keyboard navigation support
+    button.addEventListener("keydown", (event) => {
+
+        if (event.key === "Enter" || event.key === " ") {
+
+            event.preventDefault();
+
+            button.click();
+
+        }
+
+    });
+
 });
